@@ -1,4 +1,38 @@
+# robots.txt for JSSF News — Jeay Sindh Students Federation
+# Allow all crawlers, including search engines and LLM/AI crawlers.
+
 User-agent: *
 Allow: /
 
-Sitemap: https://bhoomi-app.github.io/sitemap.xml
+# Explicitly welcome major AI / LLM crawlers for discoverability
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://jeaysindhstudentsfederation.github.io/sitemap.xml
