@@ -1,14 +1,14 @@
 {
-    "name": "JSSF News — Jeay Sindh Students Federation",
-    "short_name": "JSSF News",
+    "name": "Bhoomi - JSSF Magazine",
+    "short_name": "Bhoomi",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#1A1A2E",
-    "theme_color": "#1A1A2E",
-    "description": "Official news platform of the Jeay Sindh Students Federation (JSSF), a Sindhi nationalist student organization. Latest news, statements, campaigns, and updates.",
+    "background_color": "#FFFFFF",
+    "theme_color": "#CA0000",
+    "description": "The digital magazine of Jeay Sindh Students' Federation. Read editorials, interviews, and articles on Sindhi culture and student affairs.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
-    "categories": ["news", "education", "politics"],
+    "categories": ["news", "magazines", "education"],
     "lang": "en",
     "icons": [
         {

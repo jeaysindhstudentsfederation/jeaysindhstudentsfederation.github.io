@@ -1,0 +1,30 @@
+# Bhoomi (ڀُومي)
+
+> Bhoomi is the official digital magazine of the Jeay Sindh Students' Federation (JSSF). It publishes editorials, interviews, and articles on Sindhi culture, politics, literature, and student affairs, in Sindhi and English, across periodic editions.
+
+Bhoomi is delivered as an interactive Flutter web application, so most content is rendered client-side and loaded dynamically from a database. This file summarizes the site for language models and crawlers.
+
+## About
+
+- **Name**: Bhoomi (Sindhi: ڀُومي, meaning "homeland")
+- **Publisher**: Jeay Sindh Students' Federation (JSSF), a Sindhi student organisation
+- **Languages**: Sindhi and English
+- **Subject areas**: Sindhi culture, Sindh politics, literature, the Jeay Sindh movement, student affairs
+
+## Content structure
+
+- **Home**: Browse by edition. Each edition shows a featured (most-liked) article followed by the rest of that edition's pieces.
+- **General**: The JSSF feed — announcements and posts, newest first.
+- **Index**: Browse all pieces by section — Editorials, Interviews, and Articles — ordered by popularity.
+
+## Content types
+
+- **Editorials**: The magazine's positions and commentary.
+- **Interviews**: Conversations with writers, activists, and students.
+- **Articles**: Reporting and essays from contributors.
+
+## Notes for crawlers
+
+- Homepage: https://bhoomi-app.github.io/
+- Sitemap: https://bhoomi-app.github.io/sitemap.xml
+- Individual articles are loaded dynamically and do not currently have their own crawlable URLs.
